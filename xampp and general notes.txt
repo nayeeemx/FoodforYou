@@ -1,0 +1,47 @@
+To change port in xampp
+(Use config change port --listen ** )
+currently xampp using port 81
+
+To run:
+localhost:81/food-order/
+
+
+services (to up and off port)
+
+css:
+1) hover means the style to be done when the cursor is placed on the button or object
+
+****DATABASE****
+--->The connectivity part starts at add-admin below using $post (method)
+--->config file because the php code for connecting database is done everytime we are performing some content upload,
+    saving in new file so can be easily changed when password or db is changes
+--->Adding constant file in menu cause we can apply it in all of the other files 
+
+<?php include('../config/constants.php');?>****
+Reason for the ..   cause we are inside a particular folder and we have to get out of that folder so we are using .. 
+
+
+passing value through form is post method 
+passing the value usign url is get method
+
+while getting the password and trying to match the the username make sure to decrypt the encrypted password	
+
+In case of radio to get the preexisting value use "checked";
+
+$server means php variables 
+
+******GLITCH TO NOTE*********
+Food menu and category menu small photo sizes causes unordered list 
+
+
+****THINGS TO LEARN*****
+1.) isset()
+2.) header()
+3.) mysqli_fetch_assoc()
+4.) $_GET()
+5.) $_POST()
+
+
+
+***BONUS***
+1) Prone to sql injection in search box. might cause the entire database deletion
